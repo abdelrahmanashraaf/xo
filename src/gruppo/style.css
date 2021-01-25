@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 25, 2021, 8:05:58 AM
+    Author     : abdel
+*/
+
+.root {
+  -fx-background-color: goldenrod;
+  -fx-padding: 30px;
+  -fx-font-size: 20px;
+  -fx-font-family: "Trirong", serif;
+}
+
+.info {
+  -fx-text-fill: whitesmoke;
+}
+
+.button {
+  -fx-base: antiquewhite;
+}
+
+.game-controls {
+  -fx-spacing: 20px;
+  -fx-alignment: center;
+}
+
+.status-indicator {
+  -fx-alignment: center;
+  -fx-padding: 16px;
+}
+
+.board {
+  -fx-background-color: grey;
+  -fx-hgap: 3px;
+  -fx-vgap: 3px;
+  /**-fx-effect: dropshadow(gaussian, slategrey, 20, 0, 0, 0);*/ /* effect disabled as it causes texture tearing on java 8b79 ea for OS X*/
+}
+
+.square {
+  -fx-padding: 10px;
+  -fx-background-color: white;
+}
